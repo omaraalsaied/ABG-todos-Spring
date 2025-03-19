@@ -15,3 +15,9 @@ spring:
       dialect: org.hibernate.dialect.PostgreSQLDialect
   liquibase:
     change-log: classpath:db/master.xml
+license:
+  key:
+    path: src/main/resources/.application_secret.txt
+  validation:
+    url: http://localhost:8010
+
